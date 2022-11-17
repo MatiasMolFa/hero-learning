@@ -1,0 +1,32 @@
+{
+  "homepage": "https://matiasmolfa.github.io/testdos.github.io/",
+  "name": "heroes-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^1.6.6",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "gh-pages": "^4.0.0",
+    "vite": "^3.0.7"
+  }
+}
