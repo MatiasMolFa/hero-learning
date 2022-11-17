@@ -1,5 +1,4 @@
 {
-  "homepage": "https://matiasmolfa.github.io/testdos.github.io/",
   "name": "heroes-app",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/hero-learning/",
     "preview": "vite preview"
   },
   "dependencies": {
